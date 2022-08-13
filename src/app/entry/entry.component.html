@@ -1,0 +1,17 @@
+<div class="outer-container">
+    <form>
+        <div>
+            <h4>Player 1</h4>
+            <input nbInput id="name1" type="text" name="P1" [(ngModel)]="player1" placeholder="Enter Player 1 name">
+        </div>
+
+        <div>
+            <h4>Player 2</h4>
+            <input nbInput id="name2" type="text" name="P2" [(ngModel)]="player2" placeholder="Enter Player 2 name">
+        </div>
+
+        <div>
+            <button nbButton outline (click)="navigate()">Start</button>
+        </div>
+    </form>
+</div>

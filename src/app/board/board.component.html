@@ -1,0 +1,11 @@
+<div class="outer-container">
+    <section class="heading">
+        <button nbButton id="start" (click)="startNewGame()">New Game</button>
+        <h1 *ngIf="!winner">Next Turn : {{currentPlayer}}</h1>
+        <h1 *ngIf="winner">{{winner}} won the game !</h1>
+    </section>
+
+    <section class="board">
+        <app-square *ngFor="let box of boxes; let i=index" (click)="markBox(i)" [value]="box"></app-square>
+    </section>
+</div>

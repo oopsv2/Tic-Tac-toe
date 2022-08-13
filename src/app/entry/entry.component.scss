@@ -1,0 +1,30 @@
+.outer-container {
+    margin: 8%;
+
+    form {
+        height: 50vh;
+        border: 1px solid aliceblue;
+        border-radius: 5%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 5px;
+
+        div {
+            margin: 20px 0;
+
+            h4 {
+                display: inline-block;
+                margin: 0 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tic-tac-toe-741cc": {
+      "hosting": {
+        "Tic-Tac-Toe": [
+          "tic-tac-toe-741cc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tic-tac-toe-741cc"
+  }
+}

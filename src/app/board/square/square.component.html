@@ -1,0 +1,9 @@
+<div class="outer-container">
+    <button nbButton outline *ngIf="!value"></button>
+    <button nbButton outline hero status="primary" *ngIf="value === 'X'">
+        <h2>{{value}}</h2>
+    </button>
+    <button nbButton outline hero status="success" *ngIf="value === 'O'">
+        <h2>{{value}}</h2>
+    </button>
+</div>
